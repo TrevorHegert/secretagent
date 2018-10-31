@@ -69,6 +69,21 @@ nav ul {
     align-items: center;
 }
 
+.smallNav {
+    display: none;
+}
+
+@media only screen and (max-width: 1024px) {
+    nav ul {
+      display: none;
+    }
+  
+    .smallNav {
+      display: block;
+      text-align: center;
+    }
+  }
+
 .products {
     display: flex;
     justify-content: space-between;
