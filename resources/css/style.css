@@ -73,17 +73,6 @@ nav ul {
     display: none;
 }
 
-@media only screen and (max-width: 1024px) {
-    nav ul {
-      display: none;
-    }
-  
-    .smallNav {
-      display: block;
-      text-align: center;
-    }
-  }
-
 .products {
     display: flex;
     justify-content: space-between;
@@ -120,6 +109,7 @@ nav ul {
       flex-direction: row;
       justify-content: space-between;
       margin: 3rem auto 4rem 0;
+      width: 35%;
   }
 
   .place {
@@ -139,5 +129,56 @@ nav ul {
     margin-top: 4rem;
     background-color: black;
     color: white;
+    text-align: left;
   }
   
+  @media only screen and (max-width: 1024px) {
+    nav ul {
+      display: none;
+    }
+  
+    .smallNav {
+      display: block;
+      text-align: center;
+    }
+
+    .productBox {
+        width: 47%;
+    }
+  }
+
+  
+  @media only screen and (max-width: 470px) {
+
+    .bikeblock {
+        height: 15rem;
+    }
+
+    .newarrival {
+        padding: 1rem 2rem;
+        top: 10rem;
+    }
+
+    .newarrival h4 {
+        font-size: 0.77rem;
+    }
+
+    .newarrival h1 {
+        font-size: 1rem;
+    }
+
+    .productbox {
+        width: 90%;
+    }
+
+    .infoBlock {
+        width: 90%;
+        margin: .5rem auto;
+    }
+
+    footer {
+        text-align: center;
+    }
+}
+
+
