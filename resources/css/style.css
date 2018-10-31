@@ -1,0 +1,128 @@
+html {
+    font-family: 'Helvetica', sans-serif;
+}
+
+body {
+    font-size: 18px;
+}
+
+.header {
+    background-color: black;
+    color: white;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.header img {
+    height: 1.5rem;
+    padding-right: .5rem;
+}
+
+.header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: .66rem .5rem;
+}
+
+.bikeblock {
+    background-image: url('../images/moto.jpeg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25rem;
+}
+
+.newarrival {
+    position: relative;
+    top: 9rem;
+    width: 20rem;
+    padding: 2rem 3rem;
+    color: white;
+    background-color: black;
+}
+
+.newarrival h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: .25rem;
+}
+
+.newarrival h4 {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+nav {
+    color: white;
+    background-color: firebrick;
+}
+
+nav ul {
+    display: flex;
+    padding: .75rem 0;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.products {
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem auto;
+}
+
+.productBox {
+    width: 30%;
+}
+
+.productImage {
+    border: 4px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 9rem;
+    padding: 2rem 0;
+}
+
+.productImage img {
+    max-width: 9rem;
+}
+
+.info {
+    display: block;
+    padding: 0.5rem;
+    background-color: black;
+    text-align: center;
+    color: white;
+  }
+
+  .infoBlock {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin: 3rem auto 4rem 0;
+  }
+
+  .place {
+    width: 35%;
+  }
+
+  .place .placeHead {
+    display: block;
+    padding: 1rem 2rem;
+    background-color: black;
+    text-align: left;
+    color: white;
+  }
+
+  footer {
+    padding: 5rem 0;
+    margin-top: 4rem;
+    background-color: black;
+    color: white;
+  }
+  
